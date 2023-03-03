@@ -33,6 +33,6 @@ public class CoordinateLabeler : MonoBehaviour
 
     void UpdateObjectName()
     {
-        transform.parent.name = "Tile" + coordinates.ToString();
+        transform.parent.name = coordinates.ToString();
     }
 }
