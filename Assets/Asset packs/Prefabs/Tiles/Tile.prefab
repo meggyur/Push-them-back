@@ -233,6 +233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlaceable: 1
+  machinegunI: {fileID: 7278701708033493267, guid: 7e20a3427aa0ce34889fb9400d02549f,
+    type: 3}
 --- !u!65 &6877934141264885889
 BoxCollider:
   m_ObjectHideFlags: 0

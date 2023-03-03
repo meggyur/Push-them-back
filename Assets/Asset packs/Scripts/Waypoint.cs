@@ -5,12 +5,14 @@ using UnityEngine;
 public class Waypoint : MonoBehaviour
 {
 [SerializeField] bool isPlaceable;
+[SerializeField] GameObject machinegunI;
 
    void OnMouseDown() 
    {
         if(isPlaceable)
         {
-            Debug.Log(transform.name);
+            Instantiate(machinegunI, transform.position, Quaternion.identity);
+            isPlaceable = false;
         }
 
    }
