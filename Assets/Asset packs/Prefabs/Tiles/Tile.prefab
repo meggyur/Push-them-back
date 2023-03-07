@@ -185,6 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d948f1333a49ac459d1c9f88bff5f3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  blockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
 --- !u!1 &7835029932038674552
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,9 +234,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3a3df1d80851c4daec24e11a291b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlaceable: 1
-  machinegunI: {fileID: 7278701708033493267, guid: 7e20a3427aa0ce34889fb9400d02549f,
+  machinegunI: {fileID: 2532371859453196054, guid: 7e20a3427aa0ce34889fb9400d02549f,
     type: 3}
+  isPlaceable: 1
 --- !u!65 &6877934141264885889
 BoxCollider:
   m_ObjectHideFlags: 0

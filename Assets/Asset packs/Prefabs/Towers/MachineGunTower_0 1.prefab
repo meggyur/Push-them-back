@@ -24121,6 +24121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7284246592189363815}
   - component: {fileID: 7745642787740617126}
+  - component: {fileID: 2532371859453196054}
   m_Layer: 10
   m_Name: MachineGunTower_0 1
   m_TagString: Untagged
@@ -24167,6 +24168,18 @@ MonoBehaviour:
   - {fileID: 7477765533282033027}
   - {fileID: 7477515555040923765}
   towersRange: 25
+--- !u!114 &2532371859453196054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278701708033493267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876b80f1b6a4ea541990b80a5a22b3af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7278959193662500039
 GameObject:
   m_ObjectHideFlags: 0

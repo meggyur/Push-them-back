@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour
 {
-[SerializeField] GameObject machinegunI;
+[SerializeField] Tower machinegunI;
 
 [SerializeField] bool isPlaceable;
 public bool IsPlaceable { get { return isPlaceable; } }
@@ -14,8 +14,8 @@ public bool IsPlaceable { get { return isPlaceable; } }
    {
         if(isPlaceable)
         {
-            Instantiate(machinegunI, transform.position, Quaternion.identity);
-            isPlaceable = false;
+            bool isPlaced = machinegunI.CreateTower(machinegunI, transform.position);
+            isPlaceable = !isPlaced;
         }
 
    }
